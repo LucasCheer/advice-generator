@@ -19,7 +19,12 @@
       <div class="div-container-1">
         <h1 class="title-advice">ADVICE #<span id="id-advice">000</span></h1>
         <p id="quote-text">Click the button to get an advice</p>
-        <figure><img src="./images/pattern-divider-desktop.svg" alt="linea-divisora"></figure>
+        <picture>
+                    <!-- Imagen para pantallas grandes -->
+          <source srcset="./images/pattern-divider-desktop.svg" media="(min-width:550px)">
+          <!-- Imagen para pantallas pequeñas -->
+          <img src="./images/pattern-divider-mobile.svg" alt="Imagen adaptable">
+      </picture>
       </div>
       <div class="div-container-2">
         <button class="btn-next" id="btn-next"><img src="./images/icon-dice.svg" alt="icono-dado"></button>
@@ -28,10 +33,10 @@
 
   </main>
   <footer>
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </footer>
   <script src="app.js"></script>
 </body>
