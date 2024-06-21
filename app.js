@@ -19,4 +19,9 @@ adviceBtn.addEventListener("click", () => {
             console.error("Error fetching advice:", error);
             adviceParagraph.textContent = "Sorry, could not fetch advice at the moment.";
         });
+
+    adviceBtn.classList.toggle("rotar");  
+
+
 });
+

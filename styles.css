@@ -86,12 +86,17 @@ main{
   justify-content: center;
   align-items: center;
 
-  transition-duration: 400ms;
+  transition-duration: 500ms;
 
   &.btn-next:hover{
     cursor: pointer;
     box-shadow: 0 0 25px var(--colorPrimary);
   }
+
+
+}
+.rotar{
+  transform: rotate(180deg);
 }
 
 /* MEDIA QUERYS */
